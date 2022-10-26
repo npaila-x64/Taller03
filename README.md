@@ -39,7 +39,7 @@ Clases identificadas:
 Relaciones identificadas:
 * Existe una asociación de uno a muchos desde la clase Mesero hasta la clase Pedido.
 * Un Mesero puede atender un pedido, por tanto es una operación del Mesero.
-* Se puede intuir una relación de agregación entre un Pedido y el Mesero, ya que el pedido puede existir de manera independiente al mesero, y al mismo tiempo compartirse entre meseros siempre y cuando tenga exactamante uno.
+* Se puede intuir una relación de agregación entre un Pedido y el Mesero, ya que el pedido puede existir de manera independiente al mesero, y al mismo tiempo compartirse entre meseros siempre y cuando tenga exactamente uno.
 
 iv.
 
@@ -48,7 +48,8 @@ Clases identificadas:
 * Jugador
 
 Relaciones identificadas:
-* Se sabe que cada equipo debe tener al menos un jugador, al mismo tiempo, se sabe que cada equipo tiene al menos un capitan, el cual es un jugador. Luego, tenemos dos agregaciones tal que cada Equipo tiene un capitan (Jugador), y cero o más jugadores. La agregación es porque se intuye que los jugadores son intercambiables entre equipos.
+* Se sabe que cada equipo debe tener al menos un jugador, al mismo tiempo, se sabe que cada equipo tiene al menos un capitan, el cual es un jugador. Luego, tenemos una agregación tal que cada Equipo tiene uno cero o más jugadores. La agregación es porque se intuye que los jugadores son intercambiables entre equipos.
+* Uno de los jugadores que posee un Equipo es asignado capitán.
 
 v.
 
