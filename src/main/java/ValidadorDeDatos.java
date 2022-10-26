@@ -28,4 +28,8 @@ public class ValidadorDeDatos {
     public static void mostrarOpcionInvalida() {
         System.out.print("Por favor, escoja una opción válida\n> ");
     }
+
+    public static String pedirEntrada() {
+        return new Scanner(System.in).nextLine();
+    }
 }
