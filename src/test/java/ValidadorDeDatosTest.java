@@ -27,7 +27,7 @@ class ValidadorDeDatosTest {
     }
 
     @Test
-    void pedirValorEnteroEnIntervalo() {
+    void pedirValorEnteroEnIntervaloTest() {
         var exception = assertThrows(InputMismatchException.class,
                 () -> ValidadorDeDatos.pedirValorEnteroEnIntervalo(-1));
         logger.info("Se ha lanzado la excepción InputMismatchException, dado " +

@@ -25,4 +25,8 @@ public class Mesero {
 	public String toString() {
 		return "Nombre de mesero: " + getNombre();
 	}
+
+	public List<Pedido> getPedidos() {
+		return pedidos;
+	}
 }

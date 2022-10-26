@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce41bdbe-40e1-45c8-87d2-06c45f1b7d4e" name="Changes" comment="actualiza README con los análisis de clases">
+    <list default="true" id="ce41bdbe-40e1-45c8-87d2-06c45f1b7d4e" name="Changes" comment="agrega vpp y diagrama de clases">
+      <change afterPath="$PROJECT_DIR$/src/test/java/MeseroTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Mesero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mesero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ValidadorDeDatosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ValidadorDeDatosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -42,13 +45,39 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/nicol/IdeaProjects/Taller03/src/test/resources"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/nicol/IdeaProjects/Taller03/src/test/java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nicol\IdeaProjects\Taller03\src\test\java" />
       <recent name="C:\Users\nicol\IdeaProjects\Taller03\src\test\resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nicol\IdeaProjects\Taller03" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Taller03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Taller03" />
+      <module name="Taller03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Taller03" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +102,56 @@
       <option name="project" value="LOCAL" />
       <updated>1666788571735</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="actualiza análisis de caso jugadores-equipos en README">
+      <created>1666789090685</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666789090685</updated>
+    </task>
+    <task id="LOCAL-00004" summary="crea menú principal y utilidad de validación de datos">
+      <created>1666789669633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666789669633</updated>
+    </task>
+    <task id="LOCAL-00005" summary="agrega clases del contexto problema">
+      <created>1666789882164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666789882164</updated>
+    </task>
+    <task id="LOCAL-00006" summary="agrega prueba unitaria de validador de datos">
+      <created>1666792370835</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792370835</updated>
+    </task>
+    <task id="LOCAL-00007" summary="agrega atributos auxiliares a modelos de clases">
+      <created>1666792393197</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792393197</updated>
+    </task>
+    <task id="LOCAL-00008" summary="agrega demás menú a clase principal de menús">
+      <created>1666792418062</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792418062</updated>
+    </task>
+    <task id="LOCAL-00009" summary="agrega vpp y diagrama de clases">
+      <created>1666792773509</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792773509</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +180,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit inicial" />
     <MESSAGE value="actualiza README con los análisis de clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="actualiza README con los análisis de clases" />
+    <MESSAGE value="actualiza análisis de caso jugadores-equipos en README" />
+    <MESSAGE value="crea menú principal y utilidad de validación de datos" />
+    <MESSAGE value="agrega clases del contexto problema" />
+    <MESSAGE value="agrega prueba unitaria de validador de datos" />
+    <MESSAGE value="agrega atributos auxiliares a modelos de clases" />
+    <MESSAGE value="agrega demás menú a clase principal de menús" />
+    <MESSAGE value="agrega vpp y diagrama de clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="agrega vpp y diagrama de clases" />
   </component>
 </project>
